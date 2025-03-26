@@ -1,9 +1,11 @@
 services:
   frontend:
     build: .
+    platform: linux/amd64
     ports:
-      - "8080:8080"
+      - 8080:8080
   backend:
     image: springcommunity/spring-petclinic-rest
+    platform: linux/amd64
     ports: 
       - 9966:9966
