@@ -2,7 +2,7 @@ ARG DOCKER_HUB="docker.io"
 ARG NGINX_VERSION="1.17.6"
 ARG NODE_VERSION="18.20-alpine"
 
-FROM $DOCKER_HUB/library/node:$NODE_VERSION as build
+FROM $DOCKER_HUB/library/node:$NODE_VERSION AS build
 
 
 COPY . /workspace/
