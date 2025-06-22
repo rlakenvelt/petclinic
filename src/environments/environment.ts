@@ -21,7 +21,12 @@
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
+// export const environment = {
+//   production: false,
+//   REST_API_URL: 'http://localhost:8810/web/api/'
+// };
+
 export const environment = {
   production: false,
-  REST_API_URL: 'http://localhost:8810/web/api/'
+  REST_API_URL: 'https://openedge-glimmen.cloudnative.flusso.nl/web/api/'
 };
